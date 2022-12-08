@@ -18,10 +18,10 @@ galleryItems.forEach(element => {
 	items.push(galleryLink);
 });
 
-gallery.append(...items);
+gallery.append(...items)
 
 new SimpleLightbox('.gallery a', {
-	captionDelay: 250;
-});
+captionDelay: 250
+})
 
 
